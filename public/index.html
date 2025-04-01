@@ -8,20 +8,33 @@
 <body>
     <header>
             <center><h1>Página Web: Arnoldo Marcelo Sias Saucedo</h1></center>
-                <p> Hola!!</p>
-                <p>Me llamo Arnoldo Marcelo Sias Saucedo, me gusta que me digan Marcelo o Sias, estudio ITC.</p>
+            <form action="pages/home.html" method="get">
+                <label for="Username"></label>
+                <input type="text" id="Username" name="Username" placeholder="Usuario" required>
+                <label for="Password"></label>
+                <input type="password" id="Password" name="Password" placeholder="Contraseña" required>
+                <label for="RememberMe"></label>
+                <input type="checkbox" id="RememberMe" name="RememberMe">
+                <label for="RememberMe">Recordar contraseña</label>
+                <br> 
+                <label for="ForgotPassword"></label>
+                <a href="#">¿Olvidaste tu contraseña?</a>   
+                <br>
+                <label for="CreateAccount"></label>
+                <a href="#">Crear cuenta</a>
+                <input type="submit" value="Login">
+            </form>
     </header>
 
     <nav>
         <ul>
-            <li>Login</li>
             <li><a href="./pages/home.html">Home</a></li>
             <li><a href="./pages/profile.html">Profile</a></li>
-            <li>Profile</li>
         </ul>
     </nav>
 
     <footer>
+
         <p>Arnoldo Marcelo Sias Saucedo</p>
         <p>TC2005b</p>
         <p>© Marcelo Sias, 2025</p>
