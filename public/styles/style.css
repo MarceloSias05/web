@@ -1,0 +1,24 @@
+a {
+    color: #009E60 !important;
+    text-decoration: none !important;
+    font-size: 1.2em !important;
+}
+a:hover {
+    color: #0e0f0e !important;
+    text-decoration: none !important;
+}
+
+body {
+    background-color: #3abd5028;
+}
+
+.Lorem {
+    color: rgb(88, 119, 126);    
+    font-size: 1.2em !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+}
+
+#profile_id:hover {
+    color: #009E60;
+}

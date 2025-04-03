@@ -3,28 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
     <title>TC2005b</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-            <center><h1>Página Web: Arnoldo Marcelo Sias Saucedo</h1></center>
-            <form action="pages/home.html" method="get">
-                <center><label for="Username"></label></center>
-                <center><input type="text" id="Username" name="Username" placeholder="Usuario" required></center>
+    <header>           
+            <center>
+                <h1>Página Web: Arnoldo Marcelo Sias Saucedo</h1>
+                <form action="pages/home.html" method="get">
+                <label for="Username"></label>
                 <br>
-                <center><label for="Password"></label></center>
-                <center><input type="password" id="Password" name="Password" placeholder="Contraseña" required></center>
+                <input type="text" id="Username" name="Username" placeholder="Usuario" required>
+                <input type="password" id="Password" name="Password" placeholder="Contraseña" required>
+                <label for="Password"></label>
+                <input type="submit" value="Login">
                 <br>
-                <center><input type="submit" value="Login"></center>
-                <center><label for="RememberMe"></label></center>
-                <center><br></center>
-                <center><input type="checkbox" id="RememberMe" name="RememberMe"><label for="RememberMe">Recordar contraseña</label></center>
-                <center><br></center>
-                <center><label for="ForgotPassword"></label></center>
+                <label for="RememberMe"></label>
+                <br>
+                <input type="checkbox" id="RememberMe" name="RememberMe"><label for="RememberMe">Recordar contraseña</label></center>
                 <center><a href="#">¿Olvidaste tu contraseña?</a></center>
-                <center><label for="CreateAccount"></label></center>
+                <label for="ForgotPassword"></label>
                 <center><a href="#">Crear cuenta</a></center>
-            </form>
+                <label for="CreateAccount"></label>
+                </form>
+            </center>
     </header>
 </body>
 
