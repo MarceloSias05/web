@@ -1,0 +1,52 @@
+a {
+    color: #009E60 !important;
+    text-decoration: none !important;
+    font-size: 1.2em !important;
+}
+a:hover {
+    color: #0e0f0e !important;
+    text-decoration: none !important;
+}
+
+body {
+    background-color: #3abd5028;
+}
+
+.Lorem {
+    color: rgb(88, 119, 126);    
+    font-size: 1.2em !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+}
+
+#profile_id:hover {
+    color: #009E60;
+}
+
+.custom-carousel-indicators {
+    position: absolute;
+    top: 10px; /* Adjust the vertical position */
+    left: 10px; /* Adjust the horizontal position */
+    display: flex;
+    flex-direction: column; /* Stack indicators vertically */
+    gap: 10px; /* Add spacing between indicators */
+}
+
+.custom-carousel-indicators button {
+    width: 15px; /* Adjust the size of the indicators */
+    height: 15px;
+    background-color: #000000; /* Default color */
+    border: none; /* Remove border */
+    border-radius: 50%; /* Make them circular */
+    opacity: 0.7; /* Add transparency */
+    transition: opacity 0.3s ease; /* Smooth hover effect */
+}
+
+.custom-carousel-indicators button:hover {
+    opacity: 1; /* Fully visible on hover */
+}
+
+.custom-carousel-indicators button.active {
+    background-color: #33ff57; /* Active indicator color */
+    opacity: 1; /* Fully visible */
+}

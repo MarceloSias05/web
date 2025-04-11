@@ -1,0 +1,18 @@
+{
+  "name": "web_clase_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "express": "^4.21.2",
+    "web_clase_1": "file:"
+  }
+}
